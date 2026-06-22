@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+    margin: 0;
+}
+
+main{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.form-layout {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.checkmark{
+    margin-bottom: 20px;
+    width: 65px;
+    height: 65px;
+}
+
+.emailsign{
+    background-color: #1e1e1e !important;
+    color: #ffffff;
+    border-style: none !important;
+    border-radius: 15px !important;
+}
+
+.emailsign:hover{
+    background-color: #f3c6d3 !important;
+    color: #1e1e1e !important;
+    border-style: none !important;
+}
+
+.email-input{
+    height: 35px;
+    border: 1px solid #1e1e1e;
+    border-radius: 5px;
+    padding: 0 10px; 
+}
+
+.email-input:focus{
+    box-shadow: 0 0 8px #f3c6d3 !important;  
+    border: 1px solid #f3c6d3 !important;
+}
+
+.continueshop{
+    background-color: #1e1e1e !important;
+    color: #ffffff;
+    border-style: none !important;
+    border-radius: 15px !important;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: block;
+    width: 100%; 
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.continueshop:hover{
+    background-color: #f3c6d3 !important;
+    color: #1e1e1e !important;
+    border-style: none !important;
+}

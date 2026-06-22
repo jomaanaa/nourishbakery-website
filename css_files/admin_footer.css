@@ -1,0 +1,21 @@
+.centerr{
+    background-color: #ffffff !important;
+    border-radius: 0px !important;
+    position: relative;
+    margin-bottom: 0% !important;
+}
+
+.titlee{
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.bodyy{
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+.p2{
+    color:#000000 !important;
+    padding-top: 10px;
+}

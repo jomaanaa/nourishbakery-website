@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.empty{
+    margin-bottom: 80px !important;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: #1e1e1e !important;
+    border: none !important;
+    box-shadow: 0 0 3px #1e1e1e !important;  
+}
+
+.btn:hover{
+    background-color: #f3c6d3 !important;
+    color: #ffffff !important;
+    border: none !important;
+    box-shadow: 0 0 3px #f3c6d3 !important;  
+}

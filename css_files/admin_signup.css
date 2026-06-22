@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3c6d3; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff; 
+    border-radius: 17px;
+    box-shadow: 0px 6px 17px #1e1e1e;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+h1 {
+    color: #1e1e1e; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #1e1e1e;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 0px solid #1e1e1e; 
+    font-size: 14px;
+    box-shadow: #1e1e1e 0px 1px 5px;
+    margin-bottom: 10px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 9px #f3c6d3; 
+    border-color: #f3c6d3; 
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+.btn-custom {
+    background-color: #1e1e1e; 
+    color: #ffffff; 
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s;
+    width: 25%;
+}
+
+input[type="radio"]:checked{
+    background-color: #f3c6d3;
+    border-color: #1e1e1e;
+
+}
+
+.btn-custom:hover {
+    background-color: #f3c6d3; 
+    color: #1e1e1e; 
+    box-shadow: 0px 4px 10px #1e1e1e;
+}
+
+.form-check-label {
+    color: #1e1e1e; 
+    font-size: 0.9rem;
+}
+
+.file-upload {
+    border: 1px solid #1e1e1e;
+    border-radius: 8px;
+    background-color: #f3c6d3; 
+    color: #1e1e1e; 
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 4px 10px #1e1e1e;
+}
+
+h6{
+    text-align: right;
+    font-weight: bold;
+}
+
+h6 a{
+    color: #f3c6d3;
+}
+
+.alert-danger {
+    position: fixed !important;
+    bottom: 10px !important; 
+    width: auto;
+    max-width: 30%;
+    padding: 20px !important;
+    margin-bottom: 70px;
+    margin-top: 100px;  
+}
+
+input[type="radio"]:focus{
+    box-shadow: none !important;
+    outline: 4px solid #f3c6d35f !important;
+}

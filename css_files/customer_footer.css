@@ -1,0 +1,42 @@
+
+.footer{
+    background-color: #f3c6d3; 
+    padding: 30px ; 
+    font-size: 2rem;
+    color: black;
+
+}
+.social-icons a img{
+    width: 30px;  
+    height: auto; 
+    margin: 0 15px;  
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover{
+    transform: scale(1.1);  
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.links a{
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.links a:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-size: 0.9rem;
+}

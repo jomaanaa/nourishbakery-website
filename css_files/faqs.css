@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.faq-container{
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+    border: 2px solid #ffccd5 !important;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+    border-top-color: transparent !important;
+}
+
+.faq-item h2 {
+    color: #ffccd5 !important; 
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.faq-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.accordion-button {
+    font-weight: bold; 
+    background-color: transparent !important;
+}
+
+.accordion-button .accordion-icon:focus {
+    outline: none !important; 
+    box-shadow: none !important;
+}
+.accordion-button:focus {
+    outline: none !important; 
+    box-shadow: none !important; 
+    border: none
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important; 
+    color: inherit !important; 
+}
+
+
+.footer{
+    background-color: #f3c6d3 !important; 
+    padding: 30px ; 
+    font-size: 2rem;
+    color: black;
+
+}
+.social-icons a img{
+    width: 30px;  
+    height: auto; 
+    margin: 0 15px;  
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover{
+    transform: scale(1.1);  
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.links a{
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.links a:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-size: 0.9rem;
+}

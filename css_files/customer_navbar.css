@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #ffffff !important;
+    height: 80px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-item{
+    color: #1e1e1e;
+    font-family:sans-serif;
+}
+
+.btn.btn-outline-success{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-style: none;
+    border-radius: 70px;   
+}
+
+.form-control.me-2{
+    border: 1px solid #1e1e1e;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 8px #f3c6d3;  
+    border-color: #f3c6d3;      
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.cart-img{
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 2px; 
+}
+
+.badge{
+    font-size: 12px;
+}
+
+.bg-pink{
+    background-color: #f3c6d3; 
+}
+
+.text-dark{
+    color: black !important; 
+}
+#suggestions {
+    position: absolute;
+    top: 100%;  /* Position it right below the input field */
+    left: 0;
+    width: 100%;  /* Make it the same width as the input field */
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 9999;  /* Ensure it appears above other elements */
+    display: none;  /* Initially hidden */
+    max-height: 200px;
+    overflow-y: auto;  /* Scroll if suggestions overflow */
+}
+
+.suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0; /* Add hover effect for better UX */
+}

@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body, html{
+    overflow-x: hidden; 
+}
+
+.product-card{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    overflow: visible; 
+    padding: 70px 50px;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+    margin: 30px auto 80px;
+}
+
+.product-card:hover{
+        background-color: #f3c6d3;
+}
+
+.product-card:hover .btn{
+    border-color: white !important; 
+    color: #ffffff !important;
+    transform: translateX(5px);
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s, color 0.3s, border-color 0.3s;
+    background-color: transparent;
+}
+
+.product-card img{
+    width: 450px;
+    height: auto;
+    border-radius: 30px;
+    position: absolute;
+    transform: rotate(-10deg);
+    left: -90px; 
+    top: -66px;
+    z-index: 1; 
+    margin-left: 70px;
+}
+
+.content{
+    color: #1e1e1e;
+    margin-left: 33%;
+    width: 70%;
+    transition: transform 0.5s ease-in-out, color 0.3s ease-in-out;
+    padding-left: 26px;
+    
+}
+
+.product-card:hover .content{
+    color: #ffffff; 
+    transform: translatex(20px);
+}
+
+.product-card h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.product-card p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.product-card .btn{
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: #1e1e1e !important;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transform: translateX(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s, color 0.3s, border-color 0.3s;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.product-card:hover .btn-tres-leches{
+    border-color: white !important;
+    color: #ffffff !important;
+}
+
+
+
+.reverse-layout{
+    flex-direction: row-reverse;
+    transition: transform 0.5s ease-in-out, color 0.3s ease-in-out;
+    gap: 40px; 
+    justify-content: space-between;
+    
+}
+
+.reverse-layout img{
+    left: auto;
+    right: -90px;
+    margin-right: 80px;
+    margin-top: 6px;
+    transform: rotate(10deg);
+
+    
+}
+
+.reverse-layout .content{
+    margin-left: 0;
+    margin-right: 33%;
+    
+}
+
+.reverse-layout:hover{
+    background-color: #f3c6d3;
+}
+
+.footer{
+    background-color: #f3c6d3; 
+    padding: 30px ; 
+    font-size: 2rem;
+    color: black;
+
+}
+.social-icons a img{
+    width: 30px;  
+    height: auto; 
+    margin: 0 15px;  
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover{
+    transform: scale(1.1);  
+}
+
+.links{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.links a{
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.links a:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.pagination {
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
+.pagination .page-item {
+    margin: 0 4px; 
+}
+
+.pagination .page-link {
+    color: #1e1e1e; 
+    background-color: #fff;
+    font-weight: bold;
+    border: 1px solid #dee2e6;
+    border-radius: 8px; 
+    transition: all 0.3s ease-in-out;
+    outline: none !important;
+}
+
+.pagination .page-link:focus {
+    outline: none  !important;
+    box-shadow: none !important; 
+}
+
+.pagination .page-link:hover {
+    background-color: #f8d7da !important; 
+    color: #fff; 
+    border-color: #fff; 
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #f8d7da; 
+    color: #fff; 
+    border-color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #adb5bd; 
+    pointer-events: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .product-card img {
+        width: 100%;
+        left: 0;
+        transform: rotate(0deg);
+    }
+
+    .content {
+        margin-left: 0;
+        text-align: center;
+    }
+}
